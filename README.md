@@ -16,14 +16,6 @@
     - [Merge](#merge)
     - [Push](#push)
     - [Pull](#pull)
-    - [Merge](#merge-1)
-    - [Revert](#revert)
-    - [Merge o unión](#merge-o-unión)
-    - [Push](#push-1)
-    - [Pull](#pull-1)
-    - [Commit](#commit-1)
-    - [Status](#status-1)
-    - [Add](#add-1)
 
 # Frontend I
 
@@ -169,40 +161,8 @@ Para que los cambios en la rama ```main``` sean visibles en el repositorio princ
 
 ![push](img/git-push.png)
 
-En este caso, el comando me indica que he hecho un push de la rama ```test-git``` al repositorio principal, es decir, que se han agregado los cambios de la rama ```test-git``` al repositorio principal.
+Ahora, todas las demás personas que estén usando el repositorio pueden ver los cambios que hemos hecho en la rama ```main```.
 
 ### Pull
 
-Para ver los cambios que se han hecho en la rama ```test-git``` podemos ejecutar el comando ```git pull```.
-
-![pull](img/git-pull.png)
-
-En este caso, el comando me indica que he hecho un pull de la rama ```test-git``` del repositorio principal.
-
-### Merge
-
-Para que los cambios de la rama ```test-git``` sean visibles en la rama ```main``` podemos ejecutar el comando ```git merge test-git```.
-
-![merge](img/git-merge.png)
-
-En este caso, el comando me indica que he hecho un merge de la rama ```test-git``` en la rama ```main```.
-
-### Revert
-
-Para revertir los cambios de la rama ```test-git``` podemos ejecutar el comando ```git revert```.
-
-![revert](img/git-revert.png)
-
-En este caso, el comando
-
-### Merge o unión
-
-### Push
-
-### Pull
-
-### Commit
-
-### Status
-
-### Add
+Pero como veo yo los cambios que han hecho otros al repositorio? Para ver los cambios que se han hecho en la rama ```main``` podemos ejecutar el comando ```git pull```. Lo que hace es sincronizar la rama en la que nos encontremos con la versión mas reciente que se encuentra en Github.
